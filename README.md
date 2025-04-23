@@ -1,4 +1,5 @@
-# dart-dynamic-function
+# dynamic_function
+[![Pub](https://img.shields.io/pub/v/dynamic_function.svg)](https://pub.dartlang.org/packages/dynamic_function)
 
 ## Demo
 

@@ -33,7 +33,8 @@ void main() {
       } catch ($e) {
         dump($e.toString());
         expect(
-          $e.toString() == 'Required named parameter Symbol("required1") not supplied',
+          $e.toString() ==
+              'Required named parameter Symbol("required1") not supplied',
           isTrue,
         );
         echo('func01(2) test was ok!');

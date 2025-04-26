@@ -44,3 +44,19 @@
 +
 +
 ```
+
+## 2025.427.22
+
+- Added: example/example.md
+
+```
+--- a/pubspec.yaml
++++ b/pubspec.yaml
+-description: "dynamic_function package project"
+-version: 2025.426.2037
++description: |-
++  dynamic_function package was created mainly for supporting variable length parameter function for dart3.
++version: 2025.427.22
+-
+-
+```

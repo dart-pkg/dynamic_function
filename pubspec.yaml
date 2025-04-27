@@ -1,8 +1,7 @@
 name: dynamic_function
-description: |-
-  dynamic_function package was created mainly for supporting variable length parameter function for dart3.
+description: dynamic_function package was created mainly for supporting variable length parameter function for dart3.
 version: 2025.427.1341
-homepage:
+homepage: 
 repository: https://github.com/dart-pkg/dynamic_function
 
 environment:

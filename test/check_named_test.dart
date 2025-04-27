@@ -20,7 +20,8 @@ void main() {
       } catch ($e) {
         dump($e.toString());
         expect(
-          $e.toString() == 'Unexpected named parameter: Symbol("key3")',
+          $e.toString() ==
+              'Exception: Unexpected named parameter: Symbol("key3")',
           isTrue,
         );
         echo('func01(1) test was ok!');
@@ -34,7 +35,7 @@ void main() {
         dump($e.toString());
         expect(
           $e.toString() ==
-              'Required named parameter Symbol("required1") not supplied',
+              'Exception: Required named parameter Symbol("required1") not supplied',
           isTrue,
         );
         echo('func01(2) test was ok!');
